@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Order>
+  <Date>10/22/2021</Date>
+  <Number>#-0000321675</Number>
+  <Message>Payment shall be 30 days upon delivery of the above items.</Message>
+  <Total>220</Total>
+  <Company>
+    <Name>Acme Corporation</Name>
+    <Address>1447 Acme Street, Washington</Address>
+    <PhoneNumber>(201) 322-5476</PhoneNumber>
+    <EmailAddress>support@acmecorp.com</EmailAddress>
+    <Website>acmecorp.com</Website>
+  </Company>
+  <Vendor>
+    <Name>ABC Office Supplies</Name>
+    <Responsible>Kate Bening / Sales Department</Responsible>
+    <Address>1667 Abc Street, Washington</Address>
+    <PhoneNumber>(202) 323-5476</PhoneNumber>
+    <EmailAddress>support@abcsupplies.com</EmailAddress>
+    <Website>abcsupplies.com</Website>
+  </Vendor>
+  <Customer>
+    <Name>Franklin Middle School</Name>
+    <Responsible>Helen Wilson / Purchasing Department</Responsible>
+    <Address>1228 Franklin Street, Washington</Address>
+    <PhoneNumber>(203) 324-5476</PhoneNumber>
+    <EmailAddress>support@franklinschool.com</EmailAddress>
+    <Website>franklinschool.com</Website>
+  </Customer>
+  <Signature>
+    <Name>John Smith</Name>
+    <Company>Acme Corporation</Company>
+    <Title>CEO</Title>
+  </Signature>
+  <Items>
+    <No>1</No>
+    <Details>Pencils HB</Details>
+    <Unit>Dozen</Unit>
+    <Quantity>5</Quantity>
+    <UnitPrice>10</UnitPrice>
+    <Total>50</Total>
+  </Items>
+  <Items>
+    <No>2</No>
+    <Details>Pencils 2B</Details>
+    <Unit>Dozen</Unit>
+    <Quantity>4</Quantity>
+    <UnitPrice>10</UnitPrice>
+    <Total>40</Total>
+  </Items>  
+  <Items>
+    <No>3</No>
+    <Details>Pen Ball Blue</Details>
+    <Unit>Boxes</Unit>
+    <Quantity>10</Quantity>
+    <UnitPrice>10</UnitPrice>
+    <Total>100</Total>
+  </Items>
+  <Items>
+    <No>4</No>
+    <Details>Paper A4</Details>
+    <Unit>Ream</Unit>
+    <Quantity>10</Quantity>
+    <UnitPrice>3</UnitPrice>
+    <Total>30</Total>
+  </Items>
+</Order>

@@ -1,0 +1,68 @@
+{
+   "Date":"10/22/2021",
+   "Number":"#-0000321675",
+   "Message":"Payment shall be 30 days upon delivery of the above items.",
+   "Total":220,
+   "Company":{
+      "Name":"Acme Corporation",
+      "Address":"1447 Acme Street, Washington",
+      "PhoneNumber":"(201) 321-5476",
+      "EmailAddress":"support@acmecorp.com",
+      "Website":"acmecorp.com"
+   },
+   "Vendor":{
+      "Name":"ABC Office Supplies",
+      "Responsible":"Kate Bening / Sales Department",
+      "Address":"1667 Abc Street, Washington",
+      "PhoneNumber":"(202) 321-5476",
+      "EmailAddress":"support@abcsupplies.com",
+      "Website":"abcsupplies.com"
+   },
+   "Customer":{
+      "Name":"Franklin Middle School",
+      "Responsible":"Helen Wilson / Purchasing Department",
+      "Address":"1227 Franklin Street, Washington",
+      "PhoneNumber":"(203) 321-5476",
+      "EmailAddress":"support@franklinschool.com",
+      "Website":"franklinschool.com"
+   },
+   "Signature":{
+      "Name":"John Smith",
+      "Company":"Acme Corporation",
+      "Title":"CEO"
+   },
+   "Items":[
+      {
+         "No":"1",
+         "Details":"Pencils HB",
+         "Unit":"Dozen",
+         "Quantity":5,
+         "UnitPrice":10,
+         "Total":50
+      },
+      {
+         "No":"2",
+         "Details":"Pencils 2B",
+         "Unit":"Dozen",
+         "Quantity":4,
+         "UnitPrice":10,
+         "Total":40
+      },      
+      {
+         "No":"3",
+         "Details":"Pen Ball Blue",
+         "Unit":"Boxes",
+         "Quantity":10,
+         "UnitPrice":10,
+         "Total":100
+      },
+	  {
+         "No":"4",
+         "Details":"Paper A4",
+         "Unit":"Ream",
+         "Quantity":10,
+         "UnitPrice":3,
+         "Total":30
+      }
+   ]
+}
