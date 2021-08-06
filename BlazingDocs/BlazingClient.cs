@@ -33,20 +33,17 @@ namespace BlazingDocs
         /// <summary>
         /// Executes merge operation with template id.
         /// </summary>
-        Task<OperationModel> MergeAsync(string data, string filename,
-            MergeParameters parameters, Guid template);
+        Task<OperationModel> MergeAsync(string data, string filename, MergeParameters parameters, Guid template);
 
         /// <summary>
         /// Executes merge operation with template form file.
         /// </summary>
-        Task<OperationModel> MergeAsync(string data, string filename,
-            MergeParameters parameters, FormFile template);
+        Task<OperationModel> MergeAsync(string data, string filename, MergeParameters parameters, FormFile template);
 
         /// <summary>
         /// Executes merge operation with template path.
         /// </summary>
-        Task<OperationModel> MergeAsync(string data, string filename,
-            MergeParameters parameters, string template);
+        Task<OperationModel> MergeAsync(string data, string filename, MergeParameters parameters, string template);
     }
 
     /// <summary>
@@ -59,7 +56,6 @@ namespace BlazingDocs
         private readonly string _apiKey;
 
         private readonly string _baseUrl = "https://api.blazingdocs.com";
-
 
         /// <summary>
         /// Serialized object to json.
