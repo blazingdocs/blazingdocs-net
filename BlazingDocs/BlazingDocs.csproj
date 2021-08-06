@@ -3,15 +3,14 @@
         <Authors>Mentalstack</Authors>
         <Copyright>© Mentalstack 2016-2021</Copyright>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageId>BlazingDocs</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://blazingdocs.com</PackageProjectUrl>
         <RepositoryUrl>https://github.com/blazingdocs/blazingdocs-net</RepositoryUrl>
         <PackageIcon>icon-128.png</PackageIcon>
         <PackageTags>doc docx pdf odt report document template office openoffice merge xml json csv</PackageTags>
         <Description>High-performance document generation API. Generate documents and reports from СSV, JSON, XML with 99,9% uptime and 24/7 monitoring.</Description>
         <NeutralLanguage>en</NeutralLanguage>
-        <PackageId>BlazingDocs</PackageId>
-        <PackageIconUrl />
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="System.Text.Json" Version="5.0.2" />
