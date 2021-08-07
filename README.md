@@ -37,7 +37,7 @@ List<TemplateModel> templates = await _client.GetTemplatesAsync();
 UsageModel usage = await _client.GetUsageAsync();
 ```
 
-Executing merge
+### Executing merge
 
 ```c#
 using (var source = File.OpenRead("PO-Template.docx"))
